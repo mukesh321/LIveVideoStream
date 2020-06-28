@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>video chart</title>
+	<link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+</head>
+<body>
+<h1>live video stream</h1>
+<div class="contaner">
+	<div class="webcam" id="webcam">
+		{# <img src="{% url 'webcam'%}"> #}
+		<a href="webcam"><button>webcam</button></a>
+	</div>
+	<div class="mobilecam" id="mobilecam">
+		{# <img src="{% url 'mobilecam'%}"> #}
+		<a href="mobilecam"><button>mobilecam</button></a>
+	</div>
+
+</div>
+</body>
+</html>

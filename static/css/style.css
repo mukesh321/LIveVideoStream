@@ -1,0 +1,24 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: red;
+}
+
+.webcam, .mobilecam{
+	float: left;
+	height: 350px;
+	width:500px;
+	background-color: gray;
+	padding: 20px;
+	margin: 20px;
+
+}
+
+.contaner{
+	background-color: black;
+	height: 450px;
+
+}
